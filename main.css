@@ -1,21 +1,35 @@
 * {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 110%;
 }
 
-#container {
-  width: 60%;
-  background: #7ba8c0;
-  margin: auto;
-  margin-top: 6rem;
-  padding: 8rem;
-  border-radius: 2rem;
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.6rem;
 }
 
 p {
+  font-size: 1.2rem;
   margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+#container {
+  width: min(85vw, 54rem);
+  background: #7ba8c0;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding: min(9vw, 6rem);
+  border-radius: 2rem;
+}
+
+img {
+  max-width: 60vw;
+}
+
+hr {
+  margin: 1.2rem;
 }
